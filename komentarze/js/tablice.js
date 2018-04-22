@@ -22,3 +22,14 @@ console.log(imiona);
 
 console.log(imiona.shift());
 console.log(imiona);
+
+
+console.log(imiona.length);
+
+console.log(imiona.join(""));
+
+console.log(imiona.join(" "));
+
+console.log(imiona.join(" :) "));
+
+console.log(imiona.reverse());
