@@ -1,1 +1,2 @@
-console.log("akademia108");
+//console.log("akademia108"); komentarz liniowy
+/*komentarz blokowy*/ 
