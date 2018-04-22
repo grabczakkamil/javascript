@@ -8,6 +8,11 @@ console.log(imiona);
 
 imiona.push('Geralt');
 
-imiona.push('Geralt');
+
+
+console.log(imiona);
+
+imiona.pop();
+imiona.pop();
 
 console.log(imiona);
