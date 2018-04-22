@@ -39,14 +39,27 @@ var jsonOsoby = {
 
 console.log(jsonOsoby);
 
+//zainteresowania dla Krystian
 
-jsonOsoby.osoby[2].zainteresowania.forEach( function (element, index) {
-    console.log(element.nazwa);
+console.log(jsonOsoby.osoby[0].zainteresowania);
+
+/*zainteresowania dla wszystkich osób*/
+var osoby = jsonOsoby.osoby;
+
+osoby.forEach(function(osoba, index) {
+    
+    console.log("osoba: " + osoba.imie);
+    
+   var zainteresowania = osoba.zainteresowania; zainteresowania.forEach(function(zainteresowanie, i) {
+        console.log("Zainteresowanie: " + zainteresowanie.nazwa);
+    })
 });
 
+//jsonOsoby.osoby[2].zainteresowania.forEach( function (element, index) {
+//    console.log(element.nazwa);
+//});
+
 //console.log(jsonOsoby.osoby[2].zainteresowania);
-
-
 
 
 
