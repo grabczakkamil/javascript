@@ -33,3 +33,9 @@ console.log(imiona.join(" "));
 console.log(imiona.join(" :) "));
 
 console.log(imiona.reverse());
+
+var liczby = ["dwa", "trzy", "zero"];
+
+console.log(liczby.sort());
+
+console.log(liczby.sort().reverse());
