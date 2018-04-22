@@ -21,6 +21,8 @@ console.log(marcin);
 
 agata.wyswietlInfo();
 
+
+
 //var kaja = {
 //    imie: "Kaja",
 //    wzrost: 152,
