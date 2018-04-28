@@ -44,3 +44,14 @@ agata.wyswietlInfo();
 //
 //console.log(kaja.wzrost);
 //console.log(kaja);
+
+
+/*przykład z powtórzenia*/
+
+var osoba = {
+    imie:"Piotr",
+    nazwisko:"Jachowicz",
+    getFullName: function() {
+        return this.imie + " " + this.nazwisko;
+    }
+}
