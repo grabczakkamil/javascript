@@ -38,3 +38,25 @@ break;
 default:
 console.log('Inny kolor')
 }
+
+/*powtórzenie nowy przykład*/
+
+if (canBuyMachine(type, plec, zarobki))
+    
+    function canBuyMachine(type, plec,zarobki) {
+return (type=='samochod' && plec == 'mezczyzna' && zarobki >100000) || plec == 'kobieta';
+        
+    }
+    
+/*przykład switcha*/
+    switch(animal.type) {
+        case 'cat':
+            console.log('The best kind of animals');
+            break;
+        case 'bird':
+            console.log('');
+            break;
+        case default:
+            console.log('unsupported animal type');
+    }
+
